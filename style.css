@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  /* border: 1px solid red; */
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 350px;
+}
+body {
+  background-color: black;
+  font-family: 'Roboto Slab', sans-serif;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+}
+
+p {
+  padding: 10px;
+  text-align: justify;
+  margin-bottom: 50px;
+  margin: 20px;
+}
+
+h1 {
+  color: aqua;
+  font-size: 40px;
+}
+
+h2
+{
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 300
+}
+
+a:hover
+{
+    font-weight: 800;
+}
+
+i {
+  color: rgb(235, 70, 235);
+  transition: 1s;
+}
+
+i:hover {
+color: rgb(94, 247, 255);
+}
+
+.btn-primary:hover {
+  background-color: rgb(94, 247, 255);
+}
+
+.btn-primary {
+  transition: 1s;
+  background-color: rgb(237, 61, 244);
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.container {
+  width: 700px;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid;
+  border-color: transparent;
+  outline: outset 3px greenyellow;
+  outline-offset: -8px;
+}
+
+.botaolink {
+  margin-top: 15px;
+  text-align: center;
+
+}
+
+.icons  {
+  display: inline-block;
+  padding: 0px 35px;
+  margin-top: 15px;
+}
+
+.card-final {
+  padding: 20px;
+  margin: 30px;
+
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+}
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 250px;
+  }
+  img {
+    width: 250px;
+  }
+  img {
+    width: 250px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
